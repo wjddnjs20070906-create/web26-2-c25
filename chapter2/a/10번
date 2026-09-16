@@ -1,0 +1,27 @@
+<!DoCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"
+
+
+     <title>중첩 목록 만들기</title>
+</head>
+<body>
+    <h1>순서가 있는 기본 목록</h1>
+
+    <h1>순서가 있는 기본 목록</h1>
+
+
+
+    <hr>
+    <ul>
+        <!--첫 번쨰 목록-->
+        <1i>과일
+            <o1>
+                <1i>사과</1i>
+                <1i>바나나</1i>
+                <1i>오렌지</1i>
+            <o1>
+            </1i>
+</body>
+</html>

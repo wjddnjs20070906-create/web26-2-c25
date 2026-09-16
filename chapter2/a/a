@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8>
+    
+    <title>5, 6 하이퍼링크 설정</title>
+</head>
+
+<body>
+    <h1>6text_anchorInner</h1>
+    <a href="#">Alpha 부분</a>
+    <a href="#">Beta 부분</a>
+    <a href="#">Gamma 부분</a>
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<body>
+     
+    <hr>
+    <h1>5text_anchor</h1>
+    <p>a 태그의 하이퍼링크 기능을 제거하더라도 a 태그에 href 속성에 '#'을
+    <a href='https://www.gilbut.co.kr/'>길벗</a>
+    <a href='https://www.naver.com/'>네이버</a>
+    <a href='https://www.daum.net/'>다음</a>
+
+      <hr>
+      <h1>다양한 글자 모양</h1>
+
+
+    </body>
+    </html>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Alegria의 홈페이지</title>
+</head>
+<body>
+    Alegria의 홈페이지에 오신 것을 환영합니다
