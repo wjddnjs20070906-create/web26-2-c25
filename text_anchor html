@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>5,6,7 하이퍼링크 설정 다양한 링크</title>
+</head>
+<body>
+
+    <h1>Stext_anchorInner</h1>
+    <p>특정 태그로 이동하려면 <b>id속성</b>을 추가로 사용</p>
+    <a href="#">Alpha 부분</a>
+    <a href="#">Beta 부분</a>
+    <a href="#">Gamma 부분</a>
+
+    <hr>
+    <h1 id="alpha">Alpha</h1>
+    <p>what Is lorem Ipsum?
+    </p>
+
+    <h1 id="beta">Beta</h1>
+    <p>why do we use it?
+
+    <h1 id="gamma">Gamma</h1>
+    <p>where can I get some?
+
+<hr>
+<hr>
+    <h1>Stext_anchor</h1>
+    <p>a 태그의 하이퍼링크 기능을 제거하더라도 a 태그에 href 속성에 '#'을 입력해서 웹프로그래밍을 따르는 것이 좋음 -->
+    <a href="https://www.hanbit.co.kr/">한빛출판네트워크</a><br>
+    <a href="https://www.naver.com/">네이버</a><br>
+    <a href="https://www.daum.net/">다음</a><br>
+
+    <hr>
+    <h1>7다양한 글자 모양</h1>
+    <h2><b>Lorem ipsum dolor sit amet </b></h2>
+    <h2><1>Lorem ipsum dolor sit amet </1></h2>
+    <h2><small>Lorem ipsum dolor sit amet</small></h2>
+
+    <h2>Lorem ipsum dolor <sub>sit amet </sub> </h2>
+    <h2>Lorem ipsum dolor <sup>sit amet </sup> </h2>
+
+    <h2>Lorem ipsum dolor sit amet </ins></h2>
+    <h2>Lorem ipsum dolor sit amet </del></h2>
+    <hr>
+
+
+
+
+</body>
+
+
+</html>

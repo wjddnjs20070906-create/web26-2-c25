@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>11table_basic</title>
+</head>
+<body>
+    <table border="1">
+    </tr>
+        <th>번호</th>
+        <th>이름</th>
+        <th>나이</th>
+    </tr>
+
+    <tr>
+        <th>1</th>
+        <th>홍길동</th>
+        <th>20</th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>김철수</th>
+        <th>30</th>
+    </tr>
+
+   <table
