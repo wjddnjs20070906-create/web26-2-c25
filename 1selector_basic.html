@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1selector_basic</title>
+    <style>
+        /* h1{color:red}
+        p{color:blue} */
+        #header{
+            width: 800px; margin: 0 auto;
+            background: red;
+        }
+
+        #warp{
+            width: 800px; margin: 0 auto;
+            background: hidden;
+        }
+
+        #aside{
+            width: 200px; float: left;
+            background: blue;
+        }
+
+        #content{
+            width: 600px; float: left;
+            background: green;
+        }
+
+        #rint{
+            color: aqua;
+        }
+
+        .select{color:red;}
+
+        .header{background-color: blue;}
+        .item{color:red}
+
+        li.select{color:violet}
+    </style>
+</head>
+<body>
+    <h2>1. 전체 선택자</h2> 
+    <h2>2. 태그 선택자</h2>
+    <h2>3. 아이디 태그 선택자</h2>
+    <h2>4. id속성을 중복 사용하려면 해당 id속성을 표시한 모든 태그에 스타일 적용됨.</h2>
+    <hr>
+
+    <h1 id="rint">CSS3 선택자 기본</h1>
+    <h2 id="rint">CSS3 선택자 기본</h2>
+    <h3 id="rint">CSS3 선택자 기본</h3>
+
+    <h1 class="item header">동해물과 뱍두산이</h1>
+
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li class="select">오렌지</li>
+        <li class="select">감</li>
+    </ul>
+
+    <h1>제목 글자</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Labore distinctio voluptatem blanditiis dolore dolor incidunt, recusandae praesentium. 
+    Deserunt aliquam voluptatem, blanditiis adipisci facilis officia architecto reprehenderit fugit, repellendus at non!</p>
+    
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="warp">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+</body>
+</html>
